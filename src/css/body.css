@@ -1,0 +1,20 @@
+body{
+    background-image: radial-gradient( circle, rgb(31,54,86), rgb(25,35,66));
+}
+
+#divBodyHead{
+    display: flex;
+    justify-content: center;
+    margin: 2% auto;
+}
+
+#divBodyChoice{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2% auto;
+}
+#divBodyBattle{
+    display: flex;
+    justify-content: space-evenly;
+}

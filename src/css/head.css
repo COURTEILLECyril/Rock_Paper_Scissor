@@ -1,0 +1,62 @@
+.head{
+    border: 3px solid gray;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+.headTitre{
+    color: white;
+    width: 20%;
+}
+.headCompteur{
+    background-color: hsl(0,0%,98%);
+    width: 25%;
+    margin: 1%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px rgb(12, 19, 39);
+}
+
+.headCompteur h4{
+    font-size: larger;
+    color: hsl(229,43%,46%);
+}
+.headCompteur span{
+    font-size: xx-large;
+    color: hsl(251,9%,37%);
+}
+
+
+@media (min-width : 320px) and (max-width: 767px) {
+
+    .head{
+        width: 80%;
+    }
+    .head h1{
+        font-size: larger;
+    }
+    .headCompteur{
+        padding-top: 5%;
+        width: 30%;
+    }
+    .headCompteur h4{
+        font-size: larger;
+        margin: 2%;
+    }
+    .headCompteur span{
+        align-self: center;
+        font-size: xx-large;
+    }
+
+}
+
+@media (min-width : 768px) and (max-width: 1439px) {
+
+    .headCompteur{
+        width: 40%;
+    }
+}

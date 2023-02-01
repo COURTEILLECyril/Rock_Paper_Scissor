@@ -1,0 +1,27 @@
+#rule{
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    right: 10%;
+    padding: 5%;
+    width: 10%;
+    text-align: center;
+}
+#btnModal{
+    background-color: none;
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 5%;
+    color: rgb(249,248,249);
+    width: 60%;
+}
+
+@media (min-width : 320px) and (max-width: 767px) {
+
+    #btnModal{
+        width: 100%;
+    }
+    #rule{
+        right: 40%;
+    }
+}

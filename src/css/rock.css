@@ -1,0 +1,25 @@
+#divRock{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    align-self: center;
+}
+
+#divRock img{
+    align-self: center;
+    border: 10px solid hsl(349,72%,57%);
+    background-color: rgb(249,248,249);
+    border-radius: 50%;
+    padding: 15%;
+}
+
+@media (min-width : 320px) and (max-width: 767px) {
+
+    #divRock img {
+        padding: 20%;
+    }
+    #divRock {
+        margin: 5%;
+    }
+}

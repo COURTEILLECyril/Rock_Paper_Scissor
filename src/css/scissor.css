@@ -1,0 +1,25 @@
+#divScissor{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    align-self: center;
+}
+
+#divScissor img{
+    align-self: center;
+    border: 10px solid rgb(234,166,44);
+    background-color: rgb(249,248,249);
+    border-radius: 50%;
+    padding: 15%;
+}
+
+@media (min-width : 320px) and (max-width: 767px) {
+
+    #divScissor img {
+        padding: 20%;
+    }
+    #divScissor {
+        margin: 5%;
+    }
+}

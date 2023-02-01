@@ -1,0 +1,23 @@
+.choice{
+    align-self: center;
+    width: 60%;
+    background-image: url("../images/bg-triangle.svg");
+    background-size: contain;
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+@media (min-width : 320px) and (max-width: 767px) {
+
+    .choice{
+        background-position-y: 50%;
+        width: 100%;
+    }
+
+}

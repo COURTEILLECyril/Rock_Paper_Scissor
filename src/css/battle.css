@@ -1,0 +1,61 @@
+#battle {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+.playerPick{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.housePick{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+.playAgain{
+    padding: 7%;
+    border-radius: 5%;
+    border: none;
+    width: 100%;
+}
+.playAgain:hover {
+    color: purple;
+}
+
+@media (min-width : 320px) and (max-width: 767px) {
+
+    #battle{
+        margin-top: 10%;
+    }
+    #battle h3{
+        font-size: medium;
+        margin: 1%;
+    }
+    .playerPick{
+        flex-direction: column-reverse;
+        width: 30%;
+        height: 90%;
+    }
+    .housePick{
+        flex-direction: column-reverse;
+        width: 30%;
+    }
+    .resultat{
+        position: absolute;
+        bottom: 25%;
+        width: 100%;
+    }
+    .playAgain{
+        width: 50%;
+        padding: 5%;
+    }
+
+
+}
